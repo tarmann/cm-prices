@@ -1,0 +1,73 @@
+html {
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  padding: 10px 5px;
+  margin: 0px auto;
+}
+
+.page {
+  margin-bottom: 20px;
+  border: solid 1px #ccc;
+  padding: 3px;
+}
+
+.title {
+  padding: 10px;
+  font-size: 12px;
+  background: #f5f5f5;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+tbody td {
+  padding: 2px 6px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ink { padding: 5px; font-weight: bold; color: white; font-size: 12px; }
+.links { width: 100px; text-align: center; }
+
+.ink-Amethyst { background-color: purple; }
+.ink-Amber { background-color: #fca503; }
+.ink-Emerald { background-color: #288A34; }
+.ink-Ruby { background-color: #D10A2F; }
+.ink-Sapphire { background-color: #0289C3; }
+.ink-Steel { background-color: #9FA9B3; }
